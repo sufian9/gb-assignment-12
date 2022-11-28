@@ -76,7 +76,7 @@ a:hover{
 }
 .cent{
     text-align: center;
-    opacity: 0.5;
+    
 }
 .web{
     width: 30%;
@@ -129,26 +129,55 @@ a:hover{
 }
 .port{
     width: 100%;
-    background-image: url("-Artboard 1.jpg");
-    background-image: fixed;
+    background-color: black;
+    background-image: url("-header.jpg");
     background-repeat: no-repeat;
-    height: 200px;
-    opacity: 0.4;
+    height: 250px;
+    opacity: 0.5;
     margin: 50px;
+    background-size: cover;
+}
+.port{
+    
+    
 }
 .g{
     width: 16%;
     margin: 40px;
+    box-shadow: 1px 2px 4px gray;
+    overflow: scroll;
+
     
 }
 .b{
     width: 16%; 
     margin: 40px;
+    box-shadow: 1px 2px 4px gray;
+    overflow: scroll;
 }
 .c{
     width: 16%;
     margin: 40px;
+    box-shadow: 1px 2px 4px gray;
+    overflow: scroll;
 }
 .ss{
     width: 300px;
+    box-shadow: 1px 2px 4px gray;
+    overflow: scroll;
+}
+.un{
+    color: brown;
+}
+.g:hover{
+    box-shadow: 5px 8px 15px gray;
+    transition: 0.5s;
+}
+.b:hover{
+    box-shadow: 5px 8px 15px gray;
+    transition: 0.5s;
+}
+.c:hover{
+    box-shadow: 5px 8px 15px gray;
+    transition: 0.5s;
 }
